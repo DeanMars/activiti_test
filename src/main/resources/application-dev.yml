@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    driver-class: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.0.110:3306/activiti6?useUnicode=true&characterEncoding=utf8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true
+    username: root
+    password: zhangCHUqiang
+    max-active: 20
+    min-idle: 20
+    initial-size: 20
+    test-on-borrow: true
+    validation-query: 'SELECT 1'
